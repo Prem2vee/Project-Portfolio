@@ -141,18 +141,19 @@
 
   .c-hero__title {
     color: #232320;
-    background: linear-gradient(90deg, rgba(72,180,58,1) 0%, rgba(29,231,253,1) 17%, rgba(252,69,240,1) 51%);
+    background: linear-gradient(90deg, rgba(72,256,58,1) 0%,  rgba(225,226,104,1) 10%, rgba(29,231,253,1) 27%, rgba(252,69,240,1) 51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 4.5em;
+    font-size: 5.0em;
     letter-spacing: -1.5px;
     line-height: 110%;
-    margin-left: 40px;
+    margin-left: 4.5%;
     transition: all .2s ease-in-out;
   }
   .c-hero-sub {
-    margin-left: 50px;
+    margin-left: 4.0%;
+    margin-top: 5%;
     font-family: "Quicksand", sans-serif;
     font-size: 18px;
     color: white;
@@ -271,3 +272,88 @@ h5::before {
 .lspan:hover {
   transform: scale(1.5);
 }
+/* About Page CSS */
+.bio {
+  margin-top: 15%;
+}
+.bio-image {
+  height: 100%;
+  width: 100%;
+  border-radius: 10%
+}
+
+.biotext {
+  width: 100%;
+  color: white;
+  font-size: 33px;
+  font-family: 'Itim', cursive;
+  margin-bottom: 40px;
+}
+
+.bio_text {
+  width: 100%;
+  color: white;
+  font-size: 17px;
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-top: 50px;
+}
+.brief {
+  margin: 8%;
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 6px;
+  text-decoration-color: #f21170;
+}
+.brief1 {
+  font-size: 33px;
+  font-family: 'Itim', cursive;
+}
+.school {
+  font-size: 17px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.bapp-icon {
+  width: 90px;
+  height: 100%;
+  margin: 10px 10px;
+}
+.capp-icon {
+  width: 120px;
+  height: 100%;
+  margin: 10px 10px;
+}
+.hist-r {
+  background-color: #232320;
+  border-radius: 25px;
+  color: white;
+  width: 40%;
+  margin-left: 60%;
+  padding-top: 10px;
+  margin-bottom: 4%;
+  font-size: 20px;
+}
+.hist-q {
+  background-color: #232320;
+  border-radius: 25px;
+  color: white;
+  width: 45%;
+  margin-left: 40%;
+  margin-bottom: 4%;
+  font-size: 20px;
+}
+.hist-p {
+  background-color: #232320;
+  border-radius: 25px;
+  color: white;
+  width: 40%;
+  margin-left: 20%;
+  margin-bottom: 4%;
+  font-size: 20px;
+}
+.hist-o {
+  background-color: #232320;
+  border-radius: 25px;
+  color: white;
+  width: 40%;
+  font-size: 20px;
