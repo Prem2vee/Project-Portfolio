@@ -3,7 +3,6 @@
   background-color: black;
 }
 
-
 .navbar-dark .navbar-nav .nav-link {
   color: white;
 }
@@ -60,8 +59,9 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 .dropdown-toggle::after {
-    display:none;
+  display: none;
 }
 
 .fa {
@@ -113,6 +113,7 @@
   background: #e36bae;
   color: #55ACEE;
 }
+
 .row {
   display: flex;
 }
@@ -134,45 +135,49 @@
   justify-content: center;
 }
 
- .d-block {
+.d-block {
   height: 300px;
   width: 150px;
 }
 
-  .c-hero__title {
-    color: #232320;
-    background: linear-gradient(90deg, rgba(72,256,58,1) 0%,  rgba(225,226,104,1) 10%, rgba(29,231,253,1) 27%, rgba(252,69,240,1) 51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 5.0em;
-    letter-spacing: -1.5px;
-    line-height: 110%;
-    margin-left: 4.5%;
-    transition: all .2s ease-in-out;
-  }
-  .c-hero-sub {
-    margin-left: 4.0%;
-    margin-top: 5%;
-    font-family: "Quicksand", sans-serif;
-    font-size: 18px;
-    color: white;
-  }
+.c-hero__title {
+  color: #232320;
+  background: linear-gradient(90deg, rgba(72, 256, 58, 1) 0%, rgba(225, 226, 104, 1) 10%, rgba(29, 231, 253, 1) 27%, rgba(252, 69, 240, 1) 51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 5.0em;
+  letter-spacing: -1.5px;
+  line-height: 110%;
+  margin-left: 4.5%;
+  transition: all .2s ease-in-out;
+}
 
-  h1 {
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 500;
-  }
-  .slide_text {
-    font-family: "Quicksand", sans-serif;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-  }
-  .card-text {
-    font-family: "Quicksand", sans-serif;
-    font-size: 15px;
-  }
+.c-hero-sub {
+  margin-left: 4.0%;
+  margin-top: 5%;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.slide_text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.card-text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+}
+
 .web_app {
   font-family: "Quicksand", sans-serif;
   font-size: 35px;
@@ -191,22 +196,25 @@
   margin: 10px 10px;
   border-radius: 50%
 }
+
 .icon-text1 {
   padding-top: 20px;
-  margin-top:30px;
+  margin-top: 30px;
   color: white;
   font-family: "Quicksand", sans-serif;
-}
-.icon-text2 {
-  margin-top:50px;
-  color: white;
-  font-family: "Quicksand", sans-serif;
-}
-.icon-text1:hover {
-  text-decoration-color: : linear-gradient(90deg, rgba(72,180,58,1) 0%, rgba(29,231,253,1) 17%, rgba(252,69,240,1) 51%);
 }
 
-h5{
+.icon-text2 {
+  margin-top: 50px;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+.icon-text1:hover {
+  text-decoration-color: : linear-gradient(90deg, rgba(72, 180, 58, 1) 0%, rgba(29, 231, 253, 1) 17%, rgba(252, 69, 240, 1) 51%);
+}
+
+h5 {
   padding-top: 20px;
   position: relative;
   font-weight: 900;
@@ -214,6 +222,7 @@ h5{
   font-size: 2.5vw;
   -webkit-text-stroke: 03.vw #329d52;
 }
+
 h5::before {
   padding-top: 20px;
   content: attr(data-text);
@@ -229,20 +238,20 @@ h5::before {
   animation: animate 6s linear infinite;
   white-space: nowrap;
 }
+
 @keyframes animate {
-  0%,10%,100%
-  {
-    width:0%;
+  0%, 10%, 100% {
+    width: 0%;
   }
-  70%,90%
-  {
-    width:100%;
+
+  70%, 90% {
+    width: 100%;
   }
 }
 
 .ftext {
   color: #232320;
-  background: linear-gradient(90deg, rgba(72,180,58,1) 0%, rgba(29,231,253,1) 17%, rgba(252,69,240,1) 51%);
+  background: linear-gradient(90deg, rgba(72, 180, 58, 1) 0%, rgba(29, 231, 253, 1) 17%, rgba(252, 69, 240, 1) 51%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -253,8 +262,8 @@ h5::before {
   margin-top: 200px;
   transition: all .2s ease-in-out;
   width: 700px;
-
 }
+
 .ltext {
   margin-top: 40px;
   margin-bottom: 150px;
@@ -268,18 +277,25 @@ h5::before {
   text-decoration: underline;
   text-decoration-thickness: 6px;
   text-decoration-color: #f21170;
+  color: white;
 }
+
 .lspan:hover {
   transform: scale(1.5);
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 6px;
+  text-decoration-color: #c0e218;
 }
+
 /* About Page CSS */
 .bio {
-  margin-top: 15%;
+  margin-top: 10%;
 }
+
 .bio-image {
   height: 100%;
   width: 100%;
-  border-radius: 10%
 }
 
 .biotext {
@@ -288,6 +304,8 @@ h5::before {
   font-size: 33px;
   font-family: 'Itim', cursive;
   margin-bottom: 40px;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
 .bio_text {
@@ -296,7 +314,9 @@ h5::before {
   font-size: 17px;
   font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin-top: 50px;
+  margin-left: 30px;
 }
+
 .brief {
   margin: 8%;
   color: white;
@@ -304,10 +324,12 @@ h5::before {
   text-decoration-thickness: 6px;
   text-decoration-color: #f21170;
 }
+
 .brief1 {
   font-size: 33px;
   font-family: 'Itim', cursive;
 }
+
 .school {
   font-size: 17px;
   font-family: "Quicksand", sans-serif;
@@ -318,11 +340,13 @@ h5::before {
   height: 100%;
   margin: 10px 10px;
 }
+
 .capp-icon {
   width: 120px;
   height: 100%;
   margin: 10px 10px;
 }
+
 .hist-r {
   background-color: #232320;
   border-radius: 25px;
@@ -333,6 +357,7 @@ h5::before {
   margin-bottom: 4%;
   font-size: 20px;
 }
+
 .hist-q {
   background-color: #232320;
   border-radius: 25px;
@@ -342,6 +367,7 @@ h5::before {
   margin-bottom: 4%;
   font-size: 20px;
 }
+
 .hist-p {
   background-color: #232320;
   border-radius: 25px;
@@ -351,9 +377,90 @@ h5::before {
   margin-bottom: 4%;
   font-size: 20px;
 }
+
 .hist-o {
   background-color: #232320;
   border-radius: 25px;
   color: white;
   width: 40%;
   font-size: 20px;
+}
+
+@media only screen and (min-width:300px) and (max-width:900px) {
+  .hist-r, .hist-q, .hist-p, .hist-o {
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 4%;
+    font-size: 20px;
+    margin-left: 0;
+    align-items: center;
+  }
+}
+
+@media only screen and (min-width:901px) and (max-width:1100px) {
+  .hist-r, .hist-q, .hist-p, .hist-o {
+    width: 60%;
+    padding-top: 10px;
+    margin-bottom: 4%;
+    font-size: 20px;
+    margin-left: 0;
+    align-items: center;
+    align-content: flex-end;
+  }
+}
+
+@media only screen and (min-width:701px) and (max-width:1100px) {
+  .bio_text {
+    width: 100%;
+    color: white;
+    font-size: 17px;
+    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-top: 0;
+  }
+}
+
+.read {
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.card-bg {
+  background-color: #232320
+}
+
+.next-prev {
+  margin-top: 15%;
+  border: solid 2px;
+  border-color: #364547;
+  border-radius: 22px;
+}
+
+.prev, .next {
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.prev-text, .next-text {
+  color: #364547;
+  font-size: 13px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bolder;
+}
+
+.u_none:hover {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 6px;
+  text-decoration-color: #c0e218;
+  font-size: 40px;
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.u_none {
+  color: white;
+  text-decoration: underline;
+  text-decoration-thickness: 6px;
+  text-decoration-color: #f21170;
+  font-size: 40px;
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+}

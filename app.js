@@ -19,7 +19,7 @@ router.get('/about', (req, res) => {
   res.sendFile(path.join(__dirname + '/about.html'));
 });
 
-router.get('/wip', (req, res) => {
+router.get('/classics', (req, res) => {
   res.sendFile(path.join(__dirname + '/wip.html'));
 });
 
