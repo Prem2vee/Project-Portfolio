@@ -219,7 +219,7 @@ h5 {
   position: relative;
   font-weight: 900;
   color: #252839;
-  font-size: 2.5vw;
+  font-size: 3.2vw;
   -webkit-text-stroke: 03.vw #329d52;
 }
 
@@ -282,12 +282,34 @@ h5::before {
 
 .lspan:hover {
   transform: scale(1.5);
-  color: white;
+  color: #cdc7be;
   text-decoration: underline;
   text-decoration-thickness: 6px;
   text-decoration-color: #c0e218;
 }
-
+.phone, .mail {
+  margin-bottom: 3%;
+}
+.fa-phone {
+    color: #be0000;
+}
+.fa-envelope{
+  color: white;
+}
+.fa-phone:hover {
+    color: green;
+}
+.fa-envelope:hover {
+  color: #2978b5;
+}
+.Nphone, .Nvlope {
+    text-decoration: none;
+    color: #aaaaaa;
+}
+.Nphone:hover, .Nvlope:hover {
+    text-decoration: none;
+    color: white;
+}
 /* About Page CSS */
 .bio {
   margin-top: 10%;
