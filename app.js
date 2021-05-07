@@ -20,12 +20,9 @@ router.get('/about', (req, res) => {
 });
 
 router.get('/classics', (req, res) => {
-  res.sendFile(path.join(__dirname + '/wip.html'));
+  res.sendFile(path.join(__dirname + '/classics.html'));
 });
 
-router.get('/contact', (req, res) => {
-  res.sendFile(path.join(__dirname + '/contact.html'));
-});
 
 app.use('/', router);
 app.listen(process.env.PORT || port, () => {

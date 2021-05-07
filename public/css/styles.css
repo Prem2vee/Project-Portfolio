@@ -287,29 +287,37 @@ h5::before {
   text-decoration-thickness: 6px;
   text-decoration-color: #c0e218;
 }
-.phone, .mail {
+
+.phone, .mail, .contact {
   margin-bottom: 3%;
 }
+
 .fa-phone {
-    color: #be0000;
+  color: #be0000;
 }
-.fa-envelope{
+
+.fa-phone:hover {
+  color: green;
+}
+
+.fa-envelope {
   color: white;
 }
-.fa-phone:hover {
-    color: green;
-}
+
 .fa-envelope:hover {
   color: #2978b5;
 }
-.Nphone, .Nvlope {
-    text-decoration: none;
-    color: #aaaaaa;
+
+.Nphone, .Nvlope, .contact {
+  text-decoration: none;
+  color: #aaaaaa;
 }
-.Nphone:hover, .Nvlope:hover {
-    text-decoration: none;
-    color: white;
+
+.Nphone:hover, .Nvlope:hover, .contact:hover {
+  text-decoration: none;
+  color: white;
 }
+
 /* About Page CSS */
 .bio {
   margin-top: 10%;
@@ -477,6 +485,7 @@ h5::before {
   font-size: 40px;
   font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
 .u_none {
   color: white;
   text-decoration: underline;
@@ -485,4 +494,114 @@ h5::before {
   font-size: 40px;
   font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
+.mean-title {
+  color: #232320;
+  background: linear-gradient(90deg, rgba(225, 226, 104, 1) 40%, rgba(29, 231, 253, 1) 55%, rgba(252, 69, 240, 1) 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 4.5em;
+  letter-spacing: -1.5px;
+  line-height: 110%;
+  margin-left: 40px;
+  margin-top: 200px;
+  transition: all .2s ease-in-out;
+  width: 700px;
+}
+
+.mean-sub {
+  margin-top: 40px;
+  margin-bottom: 150px;
+  width: 50%;
+  color: white;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 150%;
+}
+
+.cls-main {
+  margin-top: 10%;
+}
+
+.icon-cls {
+  width: 50px;
+  height: 50%;
+  margin: 10px 10px;
+}
+
+.cls-103 {
+  color: white;
+  margin-left: 20%;
+  margin-bottom: 4%;
+  border-left: 2px solid #6e7c7c;
+  margin-top: 4%;
+}
+
+.cls-title {
+  font-size: 30px;
+  padding-top: 10px;
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.date-cls, .fa-calender {
+  font-size: 15px;
+  color: #aaaaaa;
+}
+
+.text-cls {
+  width: 60%;
+  margin-left: 6%;
+  color: #aaaaaa;
+}
+#ss_elem_list {
+  max-height: 18em;
+  overflow-y: auto;
+  position: relative;
+  padding-left: 20px;
+  font-size: 15px;
+}
+audio {
+  width: 50%;
+}
+#playlist {
+  background: none;
+  width: 60%;
+  padding: 20px;
+  list-style: decimal;
+  color: #aaaaaa;
+}
+.musik a {
+  color: #aaaaaa;
+  padding: 5px;
+  display: block;
+  height: 50px;
+}
+.musik a:hover {
+  text-decoration: none;
+  background-color:#282828;
+  color:white;
+}
+.active a {
+  color: red;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
