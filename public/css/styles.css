@@ -513,7 +513,7 @@ h5::before {
 .mean-sub {
   margin-top: 40px;
   margin-bottom: 150px;
-  width: 50%;
+  width: 60%;
   color: white;
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
@@ -533,7 +533,6 @@ h5::before {
 .cls-103 {
   color: white;
   margin-left: 20%;
-  margin-bottom: 4%;
   border-left: 2px solid #6e7c7c;
   margin-top: 4%;
 }
@@ -542,6 +541,12 @@ h5::before {
   font-size: 30px;
   padding-top: 10px;
   font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.text-sub-title {
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 10px;
+  color: white;
 }
 
 .date-cls, .fa-calender {
@@ -553,6 +558,20 @@ h5::before {
   width: 60%;
   margin-left: 6%;
   color: #aaaaaa;
+  list-style: none;
+}
+.text-clss {
+  width: 60%;
+  margin-left: 9%;
+  color: #8d93ab;
+  text-decoration: underline;
+  text-decoration-color: #aaaaaa;
+}
+.text-clss:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #aaaaaa;
+  color: #8d93ab;
 }
 #ss_elem_list {
   max-height: 18em;
@@ -591,17 +610,14 @@ audio {
   width: 5px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
   background: none;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   background: #888;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
