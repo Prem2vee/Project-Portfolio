@@ -126,7 +126,7 @@
   overflow: hidden;
   position: relative;
   z-index: 1000;
-  padding-top: 150px
+  padding-top: 10%;
 }
 
 .c-hero__box {
@@ -136,8 +136,8 @@
 }
 
 .d-block {
-  height: 300px;
-  width: 150px;
+  height: 60%;
+  width: 100%;
 }
 
 .c-hero__title {
@@ -318,6 +318,25 @@ h5::before {
   color: white;
 }
 
+@media only screen and (min-width:300px) and (max-width:1100px) {
+  .c-hero__title {
+    color: #232320;
+    background: linear-gradient(90deg, rgba(72, 256, 58, 1) 0%, rgba(225, 226, 104, 1) 10%, rgba(29, 231, 253, 1) 27%, rgba(252, 69, 240, 1) 51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 3.0em;
+    letter-spacing: -1.5px;
+    line-height: 110%;
+    margin-left: 4.5%;
+    transition: all .2s ease-in-out;
+  }
+  .hero-title, .c-hero {
+    margin-top: 10%;
+    width: 100%;
+  }
+}
+
 /* About Page CSS */
 .bio {
   margin-top: 10%;
@@ -332,23 +351,25 @@ h5::before {
   width: 100%;
   color: white;
   font-size: 33px;
-  font-family: 'Itim', cursive;
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
   margin-bottom: 40px;
   margin-top: 50px;
   margin-left: 30px;
+  text-align: center;
 }
 
 .bio_text {
   width: 100%;
   color: white;
   font-size: 17px;
-  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  ;
   margin-top: 50px;
   margin-left: 30px;
 }
 
 .brief {
-  margin: 8%;
+  margin-top: 8%;
   color: white;
   text-decoration: underline;
   text-decoration-thickness: 6px;
@@ -357,7 +378,7 @@ h5::before {
 
 .brief1 {
   font-size: 33px;
-  font-family: 'Itim', cursive;
+  font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 .school {
@@ -416,46 +437,73 @@ h5::before {
   font-size: 20px;
 }
 
-@media only screen and (min-width:300px) and (max-width:900px) {
-  .hist-r, .hist-q, .hist-p, .hist-o {
-    width: 100%;
-    padding-top: 10px;
-    margin-bottom: 4%;
-    font-size: 20px;
-    margin-left: 0;
-    align-items: center;
-  }
-}
-
-@media only screen and (min-width:901px) and (max-width:1100px) {
-  .hist-r, .hist-q, .hist-p, .hist-o {
-    width: 60%;
-    padding-top: 10px;
-    margin-bottom: 4%;
-    font-size: 20px;
-    margin-left: 0;
-    align-items: center;
-    align-content: flex-end;
-  }
-}
-
-@media only screen and (min-width:701px) and (max-width:1100px) {
-  .bio_text {
-    width: 100%;
-    color: white;
-    font-size: 17px;
-    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
-    margin-top: 0;
-  }
-}
-
 .read {
   margin-top: 5%;
   margin-right: 5%;
 }
 
 .card-bg {
-  background-color: #232320
+  background-color: #232320;
+  width: 17rem;
+}
+
+@media only screen and (min-width:300px) and (max-width:1100px) {
+  .biotext {
+    width: 100%;
+    font-size: 20.5px;
+    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-left: 2%;
+  }
+
+  .bio_text {
+    width: 90%;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 10%;
+  }
+  .brief {
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-decoration-color: #f21170;
+  }
+  .brief1 {
+    font-size: 25px;
+    width: 80%;
+    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+
+  .school {
+    font-size: 14px;
+    font-family: "Quicksand", sans-serif;
+  }
+
+  .bapp-icon {
+    width: 60px;
+    height: 100%;
+    margin: 5px 5px;
+  }
+
+  .capp-icon {
+    width: 80px;
+    height: 100%;
+    margin: 5px 5px;
+  }
+
+  .hist-r, .hist-q, .hist-p, .hist-o {
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 4%;
+    font-size: 20px;
+    margin-left: 0;
+    align-items: center;
+  }
+  .card-bg {
+    background-color: #232320;
+    width: 80%;
+  }
 }
 
 .next-prev {
@@ -495,6 +543,7 @@ h5::before {
   font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+/* Classics CSS */
 .mean-title {
   color: #232320;
   background: linear-gradient(90deg, rgba(225, 226, 104, 1) 40%, rgba(29, 231, 253, 1) 55%, rgba(252, 69, 240, 1) 70%);
@@ -504,25 +553,98 @@ h5::before {
   font-size: 4.5em;
   letter-spacing: -1.5px;
   line-height: 110%;
-  margin-left: 40px;
-  margin-top: 200px;
+  margin-top: 20%;
   transition: all .2s ease-in-out;
-  width: 700px;
 }
 
 .mean-sub {
-  margin-top: 40px;
-  margin-bottom: 150px;
+  margin-top: 5%;
+  margin-bottom: 100px;
   width: 60%;
   color: white;
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
   line-height: 150%;
+  margin-left: 5%;
 }
 
-.cls-main {
-  margin-top: 10%;
-  margin-bottom: -10%
+@media only screen and (min-width:301px) and (max-width:1100px) {
+  .mean-sub {
+    margin-top: 5%;
+    margin-bottom: 20%;
+    width: 90%;
+    margin-left: 6%;
+    color: white;
+  }
+
+  .collage {
+    width: 90%;
+    margin-left: 3%;
+  }
+
+  .next-prev {
+    margin-top: 10%;
+    border: solid 2px;
+    border-color: #364547;
+    border-radius: 22px;
+    margin-left:;
+  }
+
+  .prev, .next {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  .prev-text, .next-text {
+    color: #364547;
+    font-size: 13px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bolder;
+  }
+
+  .u_none:hover {
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-decoration-color: #c0e218;
+    font-size: 40px;
+    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+
+  .u_none {
+    color: white;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 6px;
+    text-decoration-color: #f21170;
+    font-size: 30px;
+    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+
+  .ftext {
+    color: #232320;
+    background: linear-gradient(90deg, rgba(72, 180, 58, 1) 0%, rgba(29, 231, 253, 1) 17%, rgba(252, 69, 240, 1) 51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 2.5em;
+    letter-spacing: -1.5px;
+    line-height: 110%;
+    margin-left: 15%;
+    margin-top: 20%;
+    transition: all .2s ease-in-out;
+    width: 100%;
+  }
+
+  .ltext {
+    margin-top: 10%;
+    margin-bottom: 25%;
+    margin-left: 10%;
+    width: 90%;
+    color: white;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+  }
 }
 
 .icon-cls {
@@ -533,16 +655,16 @@ h5::before {
 
 .cls-103 {
   color: white;
-  margin-left: 20%;
   border-left: 2px solid #6e7c7c;
-  margin-top: 4%;
+  margin-top: 10%;
 }
 
 .cls-title {
-  font-size: 30px;
+  font-size: 25px;
   padding-top: 10px;
   font-family: Bogart, Recoleta, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
+
 .text-sub-title {
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
@@ -555,25 +677,51 @@ h5::before {
   color: #aaaaaa;
 }
 
-.text-cls {
-  width: 60%;
+@media only screen and (min-width:301px) and (max-width:1100px) {
+  .date-cls {
+    width: 80%%;
+    font-size: 15px;
+    color: #aaaaaa;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (min-width:301px) and (max-width:1100px) {
+  .texts-cls, .text-cls {
+    width: 100%;
+    color: #aaaaaa;
+    list-style: none;
+  }
+}
+
+@media only screen and (min-width:301px) and (max-width:1100px) {
+  audio {
+    width: 100%;
+  }
+}
+
+.text-cls, .texts-cls {
+  width: 80%;
   margin-left: 6%;
   color: #aaaaaa;
   list-style: none;
 }
+
 .text-clss {
   width: 60%;
-  margin-left: 9%;
+  margin-left: 6%;
   color: #8d93ab;
   text-decoration: underline;
   text-decoration-color: #aaaaaa;
 }
+
 .text-clss:hover {
   text-decoration: underline;
   text-decoration-thickness: 3px;
   text-decoration-color: #aaaaaa;
   color: #8d93ab;
 }
+
 #ss_elem_list {
   max-height: 18em;
   overflow-y: auto;
@@ -581,29 +729,35 @@ h5::before {
   padding-left: 20px;
   font-size: 15px;
 }
+
 audio {
+  margin-top: 2%;
   width: 50%;
 }
+
 #playlist {
   background: none;
-  width: 60%;
+  width: 100%;
   padding: 20px;
   list-style: decimal;
   color: #aaaaaa;
 }
+
 .musik a {
   color: #aaaaaa;
   padding: 5px;
   display: block;
   height: 50px;
 }
+
 .musik a:hover {
   text-decoration: none;
-  background-color:#282828;
-  color:white;
+  background-color: #282828;
+  color: #40e0d0;
 }
+
 .active a {
-  color: red;
+  color: #ffac41;
   text-decoration: none;
 }
 
